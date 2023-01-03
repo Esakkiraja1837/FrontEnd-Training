@@ -1,0 +1,284 @@
+*
+{
+    margin: 0;
+    border: 0;
+}
+body
+{
+    width: 100%;
+}
+.left
+{
+    width: 22%;
+    display: inline-block;
+    background: #ffffff;
+    height: 500px;
+}
+.right
+{
+    width:76.5%;
+    display: inline-block;
+    background: #faf9f8;
+    height: 500px;
+    vertical-align: top;
+}
+.top
+{
+    height: 40px;
+    background: #2564cf;
+    width: 100%;
+    border: 1px solid black;
+}
+.app-luncher
+{
+    display: inline-block;
+    padding:10px;
+    color: aliceblue;
+    width: 300px;
+}
+.name
+{
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 10px;
+    color: aliceblue;
+}
+.set-icon
+{
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 990px;
+    color: aliceblue;
+}
+.search-block
+{
+    display: inline-block;
+    width: 400px;
+    margin-left: 70px;
+    margin-right: 150px;
+    background-color: aliceblue;
+    border-radius: 5px; 
+}
+.search
+{
+    font-size: 25px;
+    padding-left: 5px;
+   
+}
+.search-block .button
+{
+    display: inline-block;
+}
+.search-block i
+{
+    font-size: 1.5em;
+}
+.setting
+{
+    display: inline-block;
+    margin-left: 140px;
+    font-size: 1.2em;
+    color: aliceblue;
+}
+.question-tag
+{
+    display: inline-block;
+    font-size: 1.2em;
+    color: aliceblue;
+}
+.question-tag .icon
+{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.announce
+{
+    display: inline-block;
+    font-size: 1.2em;
+    color: aliceblue;
+}
+.announce .icon
+{
+    padding-left: 7px;
+    padding-right: 25px;
+}
+.profile
+{
+    display: inline-block;
+    font-size: 1.2em;
+    color: aliceblue;
+}
+.profile .icon
+{
+    padding-left: 5px;
+    padding-right: 25px;
+}
+hr
+{
+    width: 170px;
+    margin-left: 15px;
+    margin-top: 15px;
+    padding-right: 10px;
+    border-top: 1px solid black;
+}
+.menu
+{
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+.day
+{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+.day:hover
+{
+    background-color: #2564cf;
+}
+.day .content
+{
+    display: inline-block;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.important
+{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+.important:hover
+{
+    background-color: #2564cf;
+}
+.important .content
+{
+    display: inline-block;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.plan
+{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+.plan:hover
+{
+    background-color: #2564cf;
+}
+.plan .content
+{
+    padding-top: 10px;
+    display: inline-block;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.assign
+{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+.assign:hover
+{
+    background-color: #2564cf;
+}
+.assign .content
+{
+    padding-top: 10px;
+    display: inline-block;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.flog
+{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+.flog:hover
+{
+    background-color: #2564cf;
+}
+.flog .content
+{
+    padding-top: 10px;
+    display: inline-block;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.task
+{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+.task:hover
+{
+    background-color: #2564cf;
+}
+.task .content
+{
+    padding-top: 10px;
+    display: inline-block;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.list
+{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.list .add
+{
+    display: inline-block;
+    padding-left: 10px;
+}
+.list:hover
+{
+    background-color: #2564cf;
+}
+.list .add-icon
+{
+    display: inline-block;
+    padding-left: 20px;
+}
+.tools
+{
+
+}
+.tools .mail
+{
+position: fixed;
+bottom: 10px;
+padding-right: 20px;
+padding-left: 20px;
+}
+.use .day .content
+{
+    padding: 10px;
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.use .day .content .icon
+{
+    display: inline-block;
+    padding-left: 10px;
+}
+.use .date
+{
+    font-size: 12px;
+}
