@@ -12,95 +12,144 @@ body
     width: 22%;
     display: inline-block;
     background: #ffffff;
-    height: 500px;
+    height: 520px;
 }
 .right
 {
-    width:76.5%;
+    width:77.5%;
     display: inline-block;
     background: #faf9f8;
-    height: 500px;
+    height: 520px;
     vertical-align: top;
 }
 .top
 {
-    height: 40px;
+    height: 10%;
     background: #2564cf;
     width: 100%;
-    border: 1px solid black;
 }
 .app-luncher
 {
     display: inline-block;
-    padding:10px;
     color: aliceblue;
-    width: 300px;
+    width: 1%;
+    padding-top: 1.2%;
+    padding-left: 1%;
+    padding-right:1.3%;
+    padding-bottom:1% ;
+}
+.app-luncher:hover
+{
+    background-color:#004578;
 }
 .name
 {
     display: inline-block;
-    font-size: 20px;
-    margin-left: 10px;
+    font-size: 16px;
+    margin-left: 1%;
     color: aliceblue;
+    padding-right: 12%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font:bold;
 }
 .set-icon
 {
     display: inline-block;
     font-size: 30px;
-    margin-left: 990px;
     color: aliceblue;
 }
 .search-block
 {
     display: inline-block;
-    width: 400px;
-    margin-left: 70px;
-    margin-right: 150px;
+    width: 20%;
+    margin-left: 10%;
+    margin-right: 10.01%;
     background-color: aliceblue;
     border-radius: 5px; 
+    padding-right: 9.5%;
+    margin-right: 10%;
 }
 .search
 {
     font-size: 25px;
-    padding-left: 5px;
-   
+    margin-bottom: 0.1%;
+    padding-right: 30.1%;
+    margin-right: 20%;
+    width: 100%;
+    background-color: aliceblue;
 }
-.search-block .button
-{
-    display: inline-block;
-}
+
 .search-block i
 {
-    font-size: 1.5em;
+    font-size: 0.7em;
+    color: #004578;
+    padding-left: 17px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 10px;
 }
+.input
+{
+    font-size: 0.7em;
+    width: 80%;
+    border: none;
+    outline: none;
+    padding-left: 1%;
+    /* padding-right: 10%; */
+    background-color: aliceblue;
+    
+}
+
 .setting
 {
     display: inline-block;
     margin-left: 140px;
     font-size: 1.2em;
     color: aliceblue;
+    padding-top: 14px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.setting:hover
+{
+    background-color:#004578;
 }
 .question-tag
 {
     display: inline-block;
     font-size: 1.2em;
     color: aliceblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.question-tag:hover
+{
+    background-color:#004578;
 }
 .question-tag .icon
 {
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .announce
 {
     display: inline-block;
     font-size: 1.2em;
     color: aliceblue;
+
+}
+.announce:hover
+{
+    background-color:#004578;
 }
 .announce .icon
 {
-    padding-left: 7px;
-    padding-right: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 14px;
+    padding-bottom: 10px;
 }
 .profile
 {
@@ -108,23 +157,29 @@ body
     font-size: 1.2em;
     color: aliceblue;
 }
+.profile .icon:hover
+{
+    background-color:#004578;
+}
 .profile .icon
 {
-    padding-left: 5px;
-    padding-right: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top:14px;
+    padding-bottom: 10px;
 }
 hr
 {
     width: 170px;
     margin-left: 15px;
     margin-top: 15px;
-    padding-right: 10px;
+    padding-right: 70px;
     border-top: 1px solid black;
 }
 .menu
 {
     display: inline-block;
-    padding-top: 15px;
+    padding-top: 20px;
     padding-bottom: 10px;
     padding-left: 20px;
     font-size: 20px;
@@ -138,12 +193,13 @@ hr
 }
 .day:hover
 {
-    background-color: #2564cf;
+    background-color: #faf9f8;
 }
+
 .day .content
 {
     display: inline-block;
-    font-size: 15px;
+    font-size: 14px;
     padding-left: 10px;
 }
 .important
@@ -155,12 +211,12 @@ hr
 }
 .important:hover
 {
-    background-color: #2564cf;
+    background-color: #faf9f8;
 }
 .important .content
 {
     display: inline-block;
-    font-size: 15px;
+    font-size: 14px;
     padding-left: 10px;
 }
 .plan
@@ -172,13 +228,15 @@ hr
 }
 .plan:hover
 {
-    background-color: #2564cf;
+    background-color: #faf9f8;
 }
+.plan:visited {
+    color: pink;
+  }
 .plan .content
 {
-    padding-top: 10px;
     display: inline-block;
-    font-size: 15px;
+    font-size: 14px;
     padding-left: 10px;
 }
 .assign
@@ -190,13 +248,12 @@ hr
 }
 .assign:hover
 {
-    background-color: #2564cf;
+    background-color: #faf9f8;
 }
 .assign .content
 {
-    padding-top: 10px;
     display: inline-block;
-    font-size: 15px;
+    font-size: 14px;
     padding-left: 10px;
 }
 .flog
@@ -208,13 +265,12 @@ hr
 }
 .flog:hover
 {
-    background-color: #2564cf;
+    background-color: #faf9f8;
 }
 .flog .content
 {
-    padding-top: 10px;
     display: inline-block;
-    font-size: 15px;
+    font-size: 14px;
     padding-left: 10px;
 }
 .task
@@ -226,45 +282,133 @@ hr
 }
 .task:hover
 {
-    background-color: #2564cf;
+    background-color: #faf9f8;
 }
 .task .content
 {
-    padding-top: 10px;
     display: inline-block;
-    font-size: 15px;
+    font-size: 14px;
     padding-left: 10px;
 }
 .list
 {
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-bottom: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
 }
 .list .add
 {
     display: inline-block;
     padding-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.list:hover
+
+.list .icon:hover
 {
-    background-color: #2564cf;
+    background-color: #faf9f8;
+}
+.list .icon
+{
+    display: inline-block;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+}
+.list :focus
+{
+    outline: none;
+}
+.list :hover
+{
+    background-color: #faf9f8;
 }
 .list .add-icon
 {
     display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.list .add-icon:hover
+{
+    background-color: #faf9f8;
+}
+.empty
+{
+    padding-top: 20px;
     padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 125px; 
 }
 .tools
 {
-
+    padding-top: 0px;
+    padding-left:0px;
 }
 .tools .mail
 {
-position: fixed;
-bottom: 10px;
-padding-right: 20px;
-padding-left: 20px;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 16px;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+.tools .mail:hover
+{
+    background-color:#faf9f8;
+}
+.tools .calc
+{
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 16px;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+.tools .calc:hover
+{
+    background-color: #faf9f8;
+}
+.tools .pep
+{
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 16px;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+.tools .pep:hover
+{
+    background-color: #faf9f8;
+}
+.tools .file
+{
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 16px;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+.tools .file:hover
+{
+    background-color:#faf9f8;
+}
+.tools .logo
+{
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 16px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    color: #4982dc;
+}
+.tools .logo:hover
+{
+    background-color: #faf9f8;
 }
 .use .day .content
 {
@@ -272,6 +416,7 @@ padding-left: 20px;
     display: inline-block;
     font-size: 20px;
     padding-left: 10px;
+    padding-right: 600px;
 }
 .use .day .content .icon
 {
@@ -281,4 +426,54 @@ padding-left: 20px;
 .use .date
 {
     font-size: 12px;
+}
+.date
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.use .search
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    padding-left: 20px;
+    
+}
+.circle
+{
+    display: inline-block;
+    padding-right: 6px;
+    font-size: 16px;
+    color: #4982dc;
+}
+.search .text
+{
+    display: inline-block;
+    font-size: 16px;
+    color: #4982dc;
+}
+.content
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sort
+{
+    display: inline-block;
+}
+.text
+{
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-right: 20px;
+    padding-left: 7px;
+}
+.suggest
+{
+    display: inline-block;
 }

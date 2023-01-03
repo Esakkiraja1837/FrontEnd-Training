@@ -9,21 +9,22 @@
 <body>
     <div class="container">
         <div class="top">
-                <div class="app-luncher"><i class="fa fa-th"></i>
-                      <div class="name"><p>To Do</p></div>
-                </div>
+                <div class="app-luncher"><i class="fa fa-th"></i></div>
+
+                <div class="name"><p>To Do</p></div>
 
                 <div class="search-block">
                     <div class="search">
-                    <button><i class="fa fa-search" aria-hidden="true"></i></button>
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                    <input type="search" class="input" placeholder="Search">
                   </div>
-                  </div>
+                </div>
 
                   <div class="setting">
                     <i class="fa fa-cog" aria-hidden="true"></i>
                   </div>
 
-                  <div class="question-tag">
+                  <div class="question-tag"> 
                     <div class="icon"><i class="fa fa-question" aria-hidden="true"></i></div>
                   </div>
 
@@ -58,7 +59,7 @@
                 </div>
 
                 <div class="flog"><i class="fa fa-flag" aria-hidden="true"></i>
-                    <div class="content">Flogged Email</div>
+                    <div class="content">Flogged email</div>
                 </div>
 
                 <div class="task"><i class="fa fa-home" aria-hidden="true"></i>
@@ -67,14 +68,29 @@
             </div> 
             <hr>
             <div class="list">
+                <ul id = mylists>
+                </ul>
                  <div class="icon"><i class="fa fa-plus" aria-hidden="true"></i>
-                     <div class="add">New list</div>
-                     <div class="add-icon"><i class="fa fa-plus-square-o" aria-hidden="true"></i></div>
+                        <input type="add" id="Input" placeholder="New list">
                  </div>
+                 <div class="add-icon">
+                    <i class="fa fa-plus-square-o" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="empty">
+               
             </div>
 
             <div class="tools">
                 <div class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+
+                <div class="calc"><i class="fa fa-calculator" aria-hidden="true"></i></div>
+
+                <div class="pep"><i class="fa fa-user-circle-o" aria-hidden="true"></i></div>
+
+                <div class="file"><i class="fa fa-file-o" aria-hidden="true"></i></div>
+
+                <div class="logo"><i class="fa fa-check" aria-hidden="true"></i></div>
             </div>
         </div>
 
@@ -83,11 +99,21 @@
             <div class="use">
                 <div class="day"><i class="fa fa-sun-o" aria-hidden="true"></i>
                     <div class="content">My Day
-                        <div class="icon"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></div>
+                        <div class="icon"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></div> 
                     </div>
-                <div class="date"><p>TuesDay 27-12-2022;12:40:23<span id='date-time'></span>.</p></div>
+                    <div class="sort"><i class="fa fa-sort" aria-hidden="true"></i></div>
+                    <div class="text">Sort</div>
+                    <div class="suggest"><i class="fa fa-lightbulb-o" aria-hidden="true"></i></div>
+                    <div class="text">Suggestion</div>
+                <div class="date"><p id = "date"><span id='date-time'></span></p></div>
+            </div>
+
+            <div class=search>
+                <div class="circle"><i class="fa fa-circle-thin" aria-hidden="true"></i></div>
+                <div class="text">Add a task</div>
             </div>
         </div>
     </div>
+    <script src="todo.js"></script>
 </body>
 </html>
