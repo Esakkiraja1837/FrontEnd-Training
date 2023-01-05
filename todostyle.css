@@ -67,13 +67,13 @@ body
     background-color: aliceblue;
     border-radius: 5px; 
     padding-right: 9.5%;
+    padding-left: 0px;
     margin-right: 10%;
 }
 .search
 {
     font-size: 25px;
     margin-bottom: 0.1%;
-    padding-right: 30.1%;
     margin-right: 20%;
     width: 100%;
     background-color: aliceblue;
@@ -83,20 +83,20 @@ body
 {
     font-size: 0.7em;
     color: #004578;
-    padding-left: 17px;
+    padding-left: 7px;
     padding-top: 3px;
     padding-bottom: 3px;
-    padding-right: 10px;
 }
-.input
+.search .input
 {
-    font-size: 0.7em;
+    font-size: 0.6em;
     width: 80%;
     border: none;
     outline: none;
     padding-left: 1%;
-    /* padding-right: 10%; */
+    align-items: center;
     background-color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
 
@@ -184,111 +184,25 @@ hr
     padding-left: 20px;
     font-size: 20px;
 }
-.day
+.icon
 {
+    display: inline-block;
     padding-top: 10px;
     padding-left: 20px;
     padding-bottom: 10px;
     font-size: 15px;
-}
-.day:hover
-{
-    background-color: #faf9f8;
 }
 
-.day .content
+.left-content
 {
     display: inline-block;
     font-size: 14px;
     padding-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.important
-{
-    padding-top: 10px;
-    padding-left: 20px;
-    padding-bottom: 10px;
-    font-size: 15px;
-}
-.important:hover
+#options .left-menu:hover
 {
     background-color: #faf9f8;
-}
-.important .content
-{
-    display: inline-block;
-    font-size: 14px;
-    padding-left: 10px;
-}
-.plan
-{
-    padding-top: 10px;
-    padding-left: 20px;
-    padding-bottom: 10px;
-    font-size: 15px;
-}
-.plan:hover
-{
-    background-color: #faf9f8;
-}
-.plan:visited {
-    color: pink;
-  }
-.plan .content
-{
-    display: inline-block;
-    font-size: 14px;
-    padding-left: 10px;
-}
-.assign
-{
-    padding-top: 10px;
-    padding-left: 20px;
-    padding-bottom: 10px;
-    font-size: 15px;
-}
-.assign:hover
-{
-    background-color: #faf9f8;
-}
-.assign .content
-{
-    display: inline-block;
-    font-size: 14px;
-    padding-left: 10px;
-}
-.flog
-{
-    padding-top: 10px;
-    padding-left: 20px;
-    padding-bottom: 10px;
-    font-size: 15px;
-}
-.flog:hover
-{
-    background-color: #faf9f8;
-}
-.flog .content
-{
-    display: inline-block;
-    font-size: 14px;
-    padding-left: 10px;
-}
-.task
-{
-    padding-top: 10px;
-    padding-left: 20px;
-    padding-bottom: 10px;
-    font-size: 15px;
-}
-.task:hover
-{
-    background-color: #faf9f8;
-}
-.task .content
-{
-    display: inline-block;
-    font-size: 14px;
-    padding-left: 10px;
 }
 .list
 {
@@ -296,6 +210,11 @@ hr
     padding-left: 10px;
     padding-right: 20px;
 }
+
+.list ul {
+    overflow: hidden;
+}
+
 .list .add
 {
     display: inline-block;
@@ -328,7 +247,7 @@ hr
 {
     display: inline-block;
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 0px;
     padding-top: 10px;
     padding-bottom: 10px;
 
@@ -336,6 +255,15 @@ hr
 .list .add-icon:hover
 {
     background-color: #faf9f8;
+}
+#mylists
+{
+    list-style: none;
+}
+.list i
+{
+    padding-right: 10px;
+    padding-bottom: 10px;
 }
 .empty
 {
@@ -410,6 +338,10 @@ hr
 {
     background-color: #faf9f8;
 }
+.use .day
+{
+    margin-left: 20px;
+}
 .use .day .content
 {
     padding: 10px;
@@ -421,59 +353,127 @@ hr
 .use .day .content .icon
 {
     display: inline-block;
-    padding-left: 10px;
+    padding-left: 0px;
 }
 .use .date
 {
     font-size: 12px;
-}
-.date
-{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.use .search
-{
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    background-color: #ffffff;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 10px;
-    padding-left: 20px;
-    
-}
-.circle
-{
-    display: inline-block;
-    padding-right: 6px;
-    font-size: 16px;
-    color: #4982dc;
-}
-.search .text
-{
-    display: inline-block;
-    font-size: 16px;
-    color: #4982dc;
 }
 .content
 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.sort
+.use .day .sort
 {
     display: inline-block;
 }
-.text
+.use .day .text
 {
     display: inline-block;
     font-size: 16px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-right: 20px;
+    padding-right: 10px;
     padding-left: 7px;
 }
-.suggest
+.use .day .suggest
 {
     display: inline-block;
+}
+.property
+{
+    width: 95%;
+    margin-left: 3%;
+    background-color: #faf9f8;
+    padding: 1%;
+}
+.property .calender
+{
+    display: inline-block;
+    margin-right: 2%;
+}
+.property .notification
+{
+    display: inline-block;
+    margin-right: 2%;
+}
+.property .restart
+{
+    display: inline-block;
+    margin-right: 2%;
+}
+.use .add-task
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    border-radius: 10px; 
+    margin-left: 20px;
+    margin-right: 20px;
+    outline: black;
+}
+.add-task .circle
+{
+    display: inline-block;
+    padding:1%;
+    margin-left: 1%;
+
+}
+.new-task 
+{
+   font-size: 1em;
+   display: inline-block;
+   padding: 20px;
+   width: 89%;
+   outline-style: none;
+}
+.new-task #task
+{
+    width: 100%;
+    height: 3%;
+    outline: none;
+}
+
+#Todo-task .list-of-tasks i:last-child
+{
+    display: inline-block;
+}
+.check-box
+{
+    font-size: 1em;
+    padding-left: 4%;
+    width: 1.5%;
+    display: inline-block;
+}
+.important-box
+{
+    display: inline-block;
+    padding-left: 2%;
+}
+.new-list
+{
+    display: inline-block;
+    width: 80%;
+    padding-left: 2%;
+
+}
+
+.new-task-added{
+    margin-bottom: 1%;
+    background-color: orange;
+    padding: 2%;
+    overflow-y: auto;
+    border-radius: 10%;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.list-block .icon
+{
+    display: inline-block;
+}
+.list-block .content 
+{
+    display: inline-block;
+    margin-left: 6%;
 }
