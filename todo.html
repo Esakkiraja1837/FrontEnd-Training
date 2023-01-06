@@ -66,10 +66,8 @@
                     <div class="content">Task</div>
                 </div> -->
             </div> 
-            <hr>
             <div class="list">
-                <ul id = mylists>
-                </ul>
+                <ul id = mylists> </ul>
                  <div class="icon"><i class="fa fa-plus" aria-hidden="true"></i>
                         <input type="text" id="Input" placeholder="New list">
                  </div>
@@ -95,12 +93,17 @@
         </div>
 
 
-        <div class="right">
+        <div class="right" id = "middle-column">
+            <div class="middle-left">
             <div class="use">
-                <div class="day"><i class="fa fa-sun-o" aria-hidden="true"></i>
-                    <div id="main-task-title" class="content">My Day
+                <div class="day">
+                    <div class="category-icon" id="category-icon">
+                       <i class="fa fa-sun-o" aria-hidden="true"></i>
+                    </div>
+                    <div class="content" id="main-task-title">My Day
                         <div class="icon"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></div> 
                     </div>
+
                     <div class="sort"><i class="fa fa-sort" aria-hidden="true"></i></div>
                     <div class="text">Sort</div>
                     <div class="suggest"><i class="fa fa-lightbulb-o" aria-hidden="true"></i></div>
@@ -114,7 +117,7 @@
                     <i class="fa fa-circle-thin" aria-hidden="true"></i>
                 </div>
                 
-                <div class="new-task" >
+                <div class="new-task">
                      <input type="text"  id="task" placeholder="Add a task">
                 </div>
             </div>
@@ -125,9 +128,20 @@
             </div>
             <!-- <div class="lists" id="new-task"> </div> -->
         </div>
-        <div class="lists" id="new-task"> </div>
+        <div class="lists" id="new-task"> 
+            <div class="new-task-added">
+                <div class="check-box"><i class="fa fa-circle-thin" aria-hidden="true"></i>
+                <div class="new-list">
+                    <div class="important-box"><i class="fa fa-star-o" aria-hidden="true"></i></div>
+                </div>  </div>
+            </div>
+        </div>
         <!-- <div id="Todo-task"></div> -->
-    </div>
+         </div>
+
+         <div class="middle-right">
+         </div>
+</div>
     <script src="todo.js"></script>
 </body>
 </html>
